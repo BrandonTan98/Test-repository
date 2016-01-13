@@ -57,22 +57,23 @@ Displaying the same result
 ## Inline formats
 
 Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable** Project`.
+`**Reasenable**` cannot be converted into bold text because of the `` double backticks.
 
-`**Reasenable**` will not be converted into bold text because if the inline format ``.
+## Multiple lines
 
-## multiple lines
-
-triple strips ``` are used for multilines like so:
+For multiple lines we use ``` triple backticks.
 ```
-x = 0
-x = 2 + 2
-what is x
+I
+love
+pancakes
+and
+cupcakes
 ```
 
 ## Links
 
-Between the [] will be the word displayed. 
+Between [] wil be the world displayed.
 
-Between the () will be the link refered to.
+Between () will be the link refered to.
 
-[recyca](www.recyca.be)
+[google](www.google.be)
