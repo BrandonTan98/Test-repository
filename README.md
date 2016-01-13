@@ -77,3 +77,48 @@ Between [] wil be the world displayed.
 Between () will be the link refered to.
 
 [google](www.google.be)
+
+## Striketrough
+
+Striketrough text can be made with ~~ ~~
+
+~~Mistaken text~~
+
+## Syntax highlighted codes
+
+for example 'ruby':
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+## Tables
+
+| = Edge + Pipes
+
+-- = first row
+
+: = alignment
+
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+## task lists
+
+- [ ] this is an incomplete item [ ]
+
+- [x] this is a complete item [x]
+
+these tasks can also be nested
+
+- [ ] heading
+  - [ ] item 1
+  - [ ] item 2
+- [ ] heading
+  - [ ] item 1
+  
