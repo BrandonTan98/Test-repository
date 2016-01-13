@@ -54,4 +54,25 @@ Displaying the same result
   * item 2
 3. 
 
+## Inline formats
 
+Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable** Project`.
+
+`**Reasenable**` will not be converted into bold text because if the inline format ``.
+
+## multiple lines
+
+triple strips ``` are used for multilines like so:
+```
+x = 0
+x = 2 + 2
+what is x
+```
+
+## Links
+
+Between the [] will be the word displayed. 
+
+Between the () will be the link refered to.
+
+[recyca](www.recyca.be)
