@@ -46,12 +46,12 @@ Displaying the same result
 
 ## Nested list ~ unordered and ordered 
 
-**1.heading 1**
+1. heading 
   1. item 1
   2. item 2
-**2.heading 2**
+2. heading
   * item 1
   * item 2
-  * item 3
-**3.heading 3**
+3. 
+
 
